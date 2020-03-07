@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/firat/projects/BookListRazor/WebApp/WebApp.csproj": {}
+    "/home/firat/projects/BookListRazor/repo/WebApp/WebApp.csproj": {}
   },
   "projects": {
-    "/home/firat/projects/BookListRazor/WebApp/WebApp.csproj": {
+    "/home/firat/projects/BookListRazor/repo/WebApp/WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/firat/projects/BookListRazor/WebApp/WebApp.csproj",
+        "projectUniqueName": "/home/firat/projects/BookListRazor/repo/WebApp/WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "/home/firat/projects/BookListRazor/WebApp/WebApp.csproj",
+        "projectPath": "/home/firat/projects/BookListRazor/repo/WebApp/WebApp.csproj",
         "packagesPath": "/home/firat/.nuget/packages/",
-        "outputPath": "/home/firat/projects/BookListRazor/WebApp/obj/",
+        "outputPath": "/home/firat/projects/BookListRazor/repo/WebApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/firat/.config/NuGet/NuGet.Config"
@@ -35,6 +35,28 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "EntityFrameworkCore.CommonTools": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
