@@ -7458,7 +7458,7 @@
       "outputPath": "/home/firat/projects/BookListRazor/repo/WebApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/firat/.config/NuGet/NuGet.Config"
+        "/home/firat/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
