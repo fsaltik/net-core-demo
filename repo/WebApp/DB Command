@@ -1,0 +1,5 @@
+dotnet-ef migrations add UpdateBook
+
+dotnet-ef migrations add AddBook
+
+dotnet-ef database update
